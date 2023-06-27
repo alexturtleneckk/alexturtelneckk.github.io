@@ -4,7 +4,7 @@ title:  "모델링 순서"
 # author: 
 data : 2023 - 06 - 27
 categories: ML
-tags : DataScientist'sNote , Modeling
+tag : [ DataScientist'sNote  Modeling ]
 image: assets/images/230627_ㅡModelingOrder.jpeg
 ---
 
