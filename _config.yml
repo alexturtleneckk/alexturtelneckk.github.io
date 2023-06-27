@@ -23,10 +23,10 @@ authors:
     sal:
       name:           HeeYeon Kwon
       site:           https://github.com/alexturtleneckk
-      avatar:         /assets/images/avatar1.jpg
+      avatar:         /assets/images/ProfilePic.jpg
       bio:            "Hi, I am Alex, pharmacist trying to be a data anaylst for Medicine AI."
       email:          khy8387@gmail.com
-      instagram:        https://instagram.com/heeyeo_on
+      #instagram:        https://instagram.com/heeyeo_on
 
     # jane:
     #   name:           Jane
@@ -45,7 +45,7 @@ defaults:
     values:
       layout: post
       author: sal
-      avatar: /assets/images/avatar1.jpg
+      avatar: /assets/images/ProfilePic.jpg
       
   # all pages
   - scope:
