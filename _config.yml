@@ -26,7 +26,7 @@ authors:
       avatar:         /assets/images/avatar1.jpg
       bio:            "Hi, I am Alex, pharmacist trying to be a data anaylst for Medicine AI."
       email:          khy8387@gmail.com
-      #twitter:        https://twitter.com/wowthemesnet
+      instagram:        https://instagram.com/heeyeo_on
 
     # jane:
     #   name:           Jane
@@ -60,6 +60,26 @@ highlighter: rouge
 # Paginate
 paginate: 10
 
+category_archives:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
+jekyll_archives:
+  enabled:
+    - categories
+    - tags
+
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
