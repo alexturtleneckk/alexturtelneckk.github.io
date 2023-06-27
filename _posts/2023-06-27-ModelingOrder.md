@@ -4,7 +4,7 @@ title:  "모델링 순서"
 # author: 
 data : 2023 - 06 - 27
 categories: ML
-tag : [ DataScientist'sNote  Modeling ]
+tag :  DataScientist'sNote,  Modeling 
 image: assets/images/230627_ㅡModelingOrder.jpeg
 ---
 
@@ -177,4 +177,3 @@ ex) 사기거래를 예측하는 모델에서는 요인보다는 더 정확하�
 
 모델링 횟수 = 하이퍼파라미터 후보들 ( ex) max_depth X lr) X 교차검증
 
-#
