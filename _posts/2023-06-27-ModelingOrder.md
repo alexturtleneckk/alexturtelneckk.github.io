@@ -3,7 +3,7 @@ layout: post
 title:  "모델링 순서"
 author: HeeYeon Kwon
 data : 2023 - 06 - 27
-categories: ML
+category: ML
 tags :  DataScientist'sNote  Modeling 
 image: assets/images/230627_ㅡModelingOrder.jpeg
 ---
