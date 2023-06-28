@@ -513,7 +513,7 @@ pre {
 .col {
   flex-basis: 0;
   flex-grow: 1;
-  max-width: 100%; }
+  max-width: 150%; }
 
 .col-auto {
   flex: 0 0 auto;
@@ -750,7 +750,7 @@ pre {
   .col-md {
     flex-basis: 0;
     flex-grow: 1;
-    max-width: 100%; }
+    max-width: 150%; }
   .col-md-auto {
     flex: 0 0 auto;
     width: auto;
@@ -7756,7 +7756,7 @@ html {
   .col-lg {
     flex-basis: 0;
     flex-grow: 1;
-    max-width: 100%; }
+    max-width: 150%; }
   .col-lg-auto {
     flex: 0 0 auto;
     width: auto;
