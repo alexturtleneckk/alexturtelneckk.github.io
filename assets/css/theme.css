@@ -654,7 +654,7 @@ footer {
 article {
 	font-size:20px;
 	line-height:1.86;
-    font-family: Stylish;
+    font-family: Nanum Gothic;
 }
 .article-headline {
     font-family: Bagel Fat One, Georgia,Times,"Times New Roman",serif;
@@ -674,7 +674,7 @@ article blockquote {
 }
 article blockquote:before {
 	content:"“";
-	font-family:Nanum Gothic;
+	font-family:Stylish;
 	font-size:8rem;
 	margin:-1rem 2rem 0 -3.9rem;
 	position:absolute;
