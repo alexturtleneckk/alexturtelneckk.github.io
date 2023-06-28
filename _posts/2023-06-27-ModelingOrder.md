@@ -9,12 +9,11 @@ image: assets/images/230627_ㅡModelingOrder.jpeg
 ---
 
 
-## **1st 문제 정의**
+## **1st 문제 정의** 
 
 ## **2nd 라이브러리 및 데이터 불러오기 & 데이터 확인하기**
 
-### **라이브러리**
-
+### **라이브러리** 
 `sklearn`  
 - sklearn.model_selection /  train_test_split,KFold, GridSearchCV
 - sklearn.metrics / accuracy_score,mean_squared_error,confusion_matrix
