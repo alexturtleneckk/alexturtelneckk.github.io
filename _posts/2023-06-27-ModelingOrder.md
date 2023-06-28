@@ -10,6 +10,7 @@ image: assets/images/230627_ㅡModelingOrder.jpeg
 
 
 ## **1st 문제 정의** 
+<br />
 
 ## **2nd 라이브러리 및 데이터 불러오기 & 데이터 확인하기**
 
@@ -19,6 +20,7 @@ image: assets/images/230627_ㅡModelingOrder.jpeg
 - sklearn.metrics / accuracy_score,mean_squared_error,confusion_matrix
 - sklearn.tree / DecisionTreeClassifier, plot_tree
 - sklearn.ensemble/ RandomForestRegressor
+<br />
 
 ## **3rd 전처리 / 피처 엔지니어링**
 
@@ -55,6 +57,7 @@ image: assets/images/230627_ㅡModelingOrder.jpeg
     - 아웃라이어 영향 X
     - 데이터에 아웃라이어가 존재하고, 그 영향력을 그대로 유지하고 싶을 때 사용
 - `정규화 Normalizer Scaling` : 행 기준의 스케일링이 필요할 때 사용하거나, 실제로 거의 사용 X
+<br />
 
 ### 피처엔지니어링
 ---
@@ -70,10 +73,12 @@ image: assets/images/230627_ㅡModelingOrder.jpeg
     - 둘을 모두 포괄하는 새로운 변수 생성
     - PCA와 같은 방법으로 차원 축소
     
+<br />
 
 ### 학습셋과 실험셋 나누기
 ---
 나누는 이유? 학습에 사용한 데이터와 평가용으로 사용한 데이터가 동일하면 모델을 만들고 나서 새로운 데이터에 맞는지 검증할 수 없음
+<br />
 
 ## **4th 모델링 및 예측하기**
 
@@ -98,7 +103,6 @@ image: assets/images/230627_ㅡModelingOrder.jpeg
 - min_samples_split : 지정된 숫자보다 적은 수의 데이터가 노드에 있으면 더는 분류 X
 - min_samples_leaf : 분리된 노드의 데이터에 최소 몇 개의 데이터가 있어야 할지 결정
 - n_jobs : 병렬 처리에 사용되는 CPU 코어 수, -1을 지원하면 모든 코어 사용
-<br />
 <br />
 
 ### Ensemble 앙상블
@@ -136,6 +140,7 @@ image: assets/images/230627_ㅡModelingOrder.jpeg
 ex) 의학 계열에서 특정 질병의 발병률에 대한 예측 모델을 만들 때는 발병률을 높이거나 억제하는 중요한 요인을 밝히는 데 설명력이 좋은 알고리즘이 적합
 
 ex) 사기거래를 예측하는 모델에서는 요인보다는 더 정확하게 사기거래를 잡아낼 수 있어야 하므로 예측력이 높은 알고리즘이 적합
+<br />
 
 ## 5**th 하이퍼파라미터 튜닝**
 
