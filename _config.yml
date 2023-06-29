@@ -26,7 +26,7 @@ About ME:
       avatar:         /assets/images/ProfilePic.jpg
       bio:            "Hi, I am Alex, pharmacist trying to be a data anaylst for Medicine AI."
       email:          khy8387@gmail.com
-      #instagram:        https://instagram.com/heeyeo_on
+      # instagram:        https://instagram.com/heeyeo_on
 
     # jane:
     #   name:           Jane
@@ -80,3 +80,4 @@ jekyll_archives:
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
 
+futrue: true
