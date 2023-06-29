@@ -1,8 +1,18 @@
-- title: CV
-  url: /cv/
-
 - title: ML
-  url: /ml/
+  url: /categories/ML.html
+
+- title: DL
+  url: /categories/DL.html
+
+
+- title: CV
+  url: /categories/CV.html
+
+- title: NLP
+url: /categories/NLP.html
+
+- title: PaperReview
+url: /categories/PaperReview.html
 
 - title: Contact
   url: /contact.html

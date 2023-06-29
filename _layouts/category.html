@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h1 class="font-weight-bold title h6 text-uppercase mb-4">Categories</h1>
+            
+            {% assign categories = "ML, NLP, CV, PaperReview, DL" | split: ", " %}
+            
+            {% for category in categories %} 
+                {% assign category_posts = site.categories[category] %}
+                {% if category_posts.size > 0 %}
+                    <h4 class="font-weight-bold spanborder text-capitalize" id="{{ category | downcase }}"><span>{{ category }}</span></h4>
+                    
+                    {% for post in category_posts %}
+                        {% if post.title != null %}
+                            {% if group == null or group == post.group %}
+                                {% include main-loop-card.html %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+        </div>
+        
+        <div class="col-md-4">
+            {% include sidebar-featured.html %}
+        </div>
+    </div>
+</div>
