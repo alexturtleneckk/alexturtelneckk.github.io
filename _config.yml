@@ -60,24 +60,22 @@ highlighter: rouge
 # Paginate
 paginate: 10
 
-category_archives:
-  type: liquid
-  path: /categories/
+# category_archives:
+#   type: liquid
+#   path: /categories/
 
-tag_archive:
-  type: liquid
-  path: /tags/
+# tag_archive:
+#   type: liquid
+#   path: /tags/
 
-jekyll_archives:
-  enabled:
-    - categories
-    - tags
+# jekyll_archives:
+#   enabled:
+#     - categories
+#     - tags
 
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-
-
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
