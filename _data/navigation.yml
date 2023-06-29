@@ -1,5 +1,8 @@
-- title: ML
-  url: /ML/
-
 - title: CV
-url: /CV/
+  url: /cv/
+
+- title: ML
+  url: /ml/
+
+- title: Contact
+  url: /contact.html

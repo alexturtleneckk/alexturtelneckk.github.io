@@ -43,15 +43,15 @@ layout: default
         
         
         <!-- Share
-		<div id="share-section" class="col-lg-2 pr-4 mb-4 col-md-12">
+		<div class="col-lg-2 pr-4 mb-4 col-md-12">
 			<div class="sticky-top sticky-top-offset text-center">
 				<div class="text-muted">
 					Share this
 				</div>
 				<div class="share d-inline-block">
-					<!-- AddToAny BEGIN -->
-					<!-- <div class="a2a_kit a2a_kit_size_32 a2a_default_style"> -->
-						<!-- <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+					AddToAny BEGIN -->
+					<!-- <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+						<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
 						<a class="a2a_button_facebook"></a>
 						<a class="a2a_button_twitter"></a>
 					</div>
@@ -60,10 +60,9 @@ layout: default
 				<!-- </div>
 			</div>
 		</div> -->
-		 
+         
         
-        
-		<div class="col-md-12 col-lg-12">
+		<div class="col-md-12 col-lg-8">
             
             <!-- Article -->
 			<article class="article-post">                
@@ -115,7 +114,7 @@ layout: default
                         {% endif %} 
 					</div>
 					<div class="col-md-10">		
-                        <!-- <h5 class="font-weight-bold">Written by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5> -->
+                        <h5 class="font-weight-bold">Written by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
 						{{ author.bio }}					
 					</div>
 				</div>				
