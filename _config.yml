@@ -77,9 +77,6 @@ jekyll_archives:
     category: archive-taxonomy
     tag: archive-taxonomy
 
-  permalinks:
-    category: permalink: /:categories/:title/
-    tag: /tags/:name/
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
