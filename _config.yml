@@ -81,3 +81,17 @@ jekyll_archives:
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
 
 futrue: true
+
+navigation:
+  - title: ML
+    url: /categories/ML/
+  - title: DL
+    url: /categories/DL/
+  - title: CV
+    url: /categories/CV/
+  - title: NLP
+    url: /categories/NLP/
+  - title: PaperReview
+    url: /categories/PaperReview/
+  - title: Contact
+    url: /contact.html
