@@ -44,7 +44,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: HeeYeon Kwon
+      author: Alex
       avatar: /assets/images/ProfilePic.jpg
       
   # all pages
