@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "모델링 순서"
-author: HeeYeon Kwon
+author: Alex
 data : 2023 - 06 - 27
 category: ML
 tags :  DataScientist'sNote  Modeling 
