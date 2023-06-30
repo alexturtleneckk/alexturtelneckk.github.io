@@ -19,7 +19,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   
-About ME:
+AboutMe:
     Alex:
       name:           HeeYeon Kwon
       site:           https://github.com/alexturtleneckk
@@ -95,3 +95,5 @@ navigation:
     url: /categories/PaperReview/
   - title: Contact
     url: /contact.html
+  - title: AboutMe
+    url: /AboutMe.html
