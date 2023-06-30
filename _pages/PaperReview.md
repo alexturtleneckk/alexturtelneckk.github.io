@@ -9,7 +9,7 @@ permalink: /categories/PaperReview.html
         <div class="col-md-8">
             <h1 class="font-weight-bold title h6 text-uppercase mb-4">{{ page.title }}</h1>
             
-            {% for post in site.categories.ML %}
+            {% for post in site.categories.PaperReview %}
                 {% include main-loop-card.html %}
             {% endfor %}
         </div>
