@@ -19,8 +19,8 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   
-Authors:
-    Alex:
+authors:
+    alex:
       name:           HeeYeon Kwon
       site:           https://github.com/alexturtleneckk
       avatar:         /assets/images/ProfilePic.jpg
@@ -84,16 +84,17 @@ futrue: true
 
 navigation:
   - title: ML
-    url: /categories/ML/
+    url: /categories/ML.html
   - title: DL
-    url: /categories/DL/
+    url: /categories/DL.html
   - title: CV
-    url: /categories/CV/
+    url: /categories/CV.html
   - title: NLP
-    url: /categories/NLP/
+    url: /categories/NLP.html
   - title: PaperReview
-    url: /categories/PaperReview/
+    url: /categories/PaperReview.html
   - title: Contact
     url: /contact.html
   - title: AboutMe
-    url: /AboutMe.html
+    url: /authors-list.html
+
