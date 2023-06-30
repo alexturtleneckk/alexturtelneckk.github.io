@@ -19,7 +19,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   
-AboutMe:
+Authors:
     Alex:
       name:           HeeYeon Kwon
       site:           https://github.com/alexturtleneckk
