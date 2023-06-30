@@ -15,7 +15,8 @@ permalink: "/author-alex.html"
                   <p>Email: {{ site.authors.alex.email }}</p>
               </div>
               <div class="col-md-3 text-right">
-                  <img alt="{{ site.authors.alex.name }}" src="{{site.baseurl}}/{{ site.authors.alex.avatar }}" class="rounded-circle" height="100" width="100">
+              <div class="col-md-3 mb-4 mb-md-0"></div><img alt="{{ page.title }}" src="{{ site.baseurl }}/{{ site.authors[page.title].avatar }}" class="rounded-circle" height="80" width="80">
+              </div>
               </div>
           </div>
           <h4 class="font-weight-bold spanborder"><span>Posts by {{page.title}}</span></h4>
