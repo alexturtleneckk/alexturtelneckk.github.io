@@ -2,9 +2,9 @@
 layout: post
 title:  "모델링 순서"
 author: alex
-data : 2023 - 06 - 27
+data : 2023 - 06 - 23
 category: ML
-tags :  DataScientist'sNote  Modeling 
+tags :  Modeling
 image: assets/images/230627_ㅡModelingOrder.jpeg
 ---
 
