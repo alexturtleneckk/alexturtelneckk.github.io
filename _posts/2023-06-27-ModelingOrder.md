@@ -2,7 +2,7 @@
 layout: post
 title:  "모델링 순서"
 author: alex
-data : 2023 - 06 - 23
+date : 2023-06-27
 category: ML
 tags :  Modeling
 image: assets/images/230627_ㅡModelingOrder.jpeg

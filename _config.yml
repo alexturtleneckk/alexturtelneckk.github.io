@@ -18,6 +18,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-archives
   
 authors:
     alex:
@@ -59,6 +60,7 @@ highlighter: rouge
 
 # Paginate
 paginate: 10
+paginate_path: "/page:num/"
 
 category_archives:
   type: liquid
@@ -80,9 +82,11 @@ jekyll_archives:
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
 
-futrue: true
+future: true
 
 navigation:
+  - title: Math
+    url: /categories/Math.html
   - title: ML
     url: /categories/ML.html
   - title: DL
@@ -91,8 +95,10 @@ navigation:
     url: /categories/CV.html
   - title: NLP
     url: /categories/NLP.html
-  - title: PaperReview
-    url: /categories/PaperReview.html
+  - title: Extras
+    url: /categories/Extras.html
+  - title: Tags
+    url: /categories/Tags.html
   - title: Contact
     url: /contact.html
   - title: AboutMe
