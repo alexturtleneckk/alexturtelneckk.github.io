@@ -4,7 +4,7 @@ title:  "Hand On Machine Learning 정리"
 author: alex
 date : 2023-11-28
 category : ML
-tags :  DecisionTree
+tags :  [ MLModels , featured ]
 image: assets/images/231128/handsonml.jpeg
 ---
 
@@ -14,7 +14,7 @@ image: assets/images/231128/handsonml.jpeg
 
 `머신러닝`
 
-" 명시적인 프로그래밍 없이 컴퓨터가 학습하는 능력을 갖추게 하는 연구 분야이다 - 아서 새뮤얼
+> 명시적인 프로그래밍 없이 컴퓨터가 학습하는 능력을 갖추게 하는 연구 분야이다 - 아서 새뮤얼
 
 ## 2 왜 머신러닝을 사용하는가?
 
@@ -106,7 +106,7 @@ ex)  이전 스팸 메일과 유사도가 높으면 스팸으로 분류
 
 새로운 데이터에 모델을 적용해 `추론`
 
-## 4나쁜 데이터와 나쁜 알고리즘
+## 4 나쁜 데이터와 나쁜 알고리즘
 
 ### 나쁜 데이터
 

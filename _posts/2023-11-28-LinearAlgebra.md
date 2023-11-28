@@ -4,7 +4,7 @@ title:  "선형대수학 기초, 중요 개념들!(면접 대비)"
 author: alex
 date : 2023-11-28
 category : Math 
-tags :  [LinearAlgebra ]
+tags :  [LinearAlgebra, featured]
 image: assets/images/231128/linearalgebra.png
 ---
 # 선형대수학 필수 개념 정리
