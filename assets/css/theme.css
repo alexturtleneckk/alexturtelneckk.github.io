@@ -205,7 +205,7 @@ a.text-dark:hover {
 .navbar-brand {
 	margin-right:2rem;
 	font-size:1.55rem;
-    font-family:'Bagel Fat One',"Nanum Gothic";
+    font-family:'Bagel Fat One',NanumJangMiCe;
 }
 .dropdown-item {
 	font-weight:400;
@@ -297,7 +297,7 @@ a.text-dark:hover {
 		right:0;
 	}
     .jumbotron-home h1 {
-        font-family: 'Bagel Fat One',"Nanum Gothic";
+        font-family: 'Bagel Fat One',"NanumJangMiCe";
         font-size: 2.4rem;
         font-weight: 700;
         line-height: 1.1;
@@ -629,7 +629,7 @@ ol.list-featured li:before {
     font-weight: bold;
     font-size: 2rem;
     margin-right: 0.5rem;
-    font-family: 'Bagel Fat One',"Nanum Gothic";
+    font-family: 'Bagel Fat One',"NanumJangMiCe";
     line-height: 1;
     opacity: .1;
 }
@@ -654,10 +654,10 @@ footer {
 article {
 	font-size:20px;
 	line-height:1.86;
-    font-family: Nanum Gothic;
+    font-family: 'NanumJangMiCe';
 }
 .article-headline {
-    font-family: 'Bagel Fat One',"Nanum Gothic";
+    font-family: 'Bagel Fat One',"NanumJangMiCe";
     font-size: 3.2rem;
     font-weight: 400;
     line-height: 1.15;
@@ -667,15 +667,15 @@ article p,article pre,article figure,article img,article blockquote,article ifra
 	margin-bottom:2rem;
 }
 article blockquote {
-	padding-left:40px;
-	margin-left:0px;
+	padding-left:50px;
+	margin-left:40px;
 	font-style:bold;
 	position:relative;
 }
 article blockquote:before {
 	content:"“";
 	font-family:'Bagel Fat One',"Nanum Gothic";
-	font-size:8rem;
+	font-size:2rem;
 	margin:-1rem 2rem 0 -3.9rem;
 	position:absolute;
 	opacity:1;
@@ -790,8 +790,8 @@ div.a2a_full_footer {display:none;}
 @media (min-width: 1920px) {
 	html {font-size:17px;}
 	.container, .container-lg {    
-	 width: 1280px;
-	 max-width: 1280px;
+	 width: 1580px;
+	 max-width: 1580px;
 	 }
 	 h6,.h6 { 
 		 font-size: 1.1rem; 

@@ -15,8 +15,7 @@ image: assets/images/231128/BayesTheorem.png
 **`베이즈 정리(Bayes Theorem)`**
 
 <aside>
-💡  Pr(B|A)= 가능도 Pr(A|B) ⋅ 사전확률 Pr(B) / Pr(A)**
-
+    💡  Pr(B|A)= 가능도 Pr(A|B) ⋅ 사전확률 Pr(B) / Pr(A)**
 </aside>
 
 - **`사전확률(Prior Probability)`** 어떤 특정 사건에 관한 선험적 믿음

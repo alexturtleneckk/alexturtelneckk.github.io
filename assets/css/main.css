@@ -40,7 +40,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  ---family-sans-serif: 'Stylish', " Nanum Gothic", 'Bagel Fat One'; #"Segoe UI", "Helvetica Neue", "Arial",";
+  ---family-sans-serif: 'Stylish', " Nanum Gothic", 'Bagel Fat One','NanumSuJubEunDaeHagSaeng'; #"Segoe UI", "Helvetica Neue", "Arial",";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -50,7 +50,7 @@
 
 html {
   font-family: sans-serif;
-  line-height: 1.15;
+  line-height: 1.6;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
@@ -64,7 +64,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: 'Bagel Fat One'," Nanum Gothic"; #"Segoe UI", "Helvetica Neue", "Arial",";
+  font-family: 'Bagel Fat One',NanumSuJubEunDaeHagSaeng,NanumJangMiCe; 
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -85,9 +85,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem; }
 
 p {
-  margin-top: 0;
-  line-height: 1.3rem;
-  margin-bottom: 0.1rem; }
+  margin-top: 0rem;
+  line-height: 2.0rem;
+  margin-bottom: 0.5rem; }
 
 abbr[title],
 abbr[data-original-title] {
@@ -169,14 +169,21 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 1em; }
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'NanumSuJubEunDaeHagSaeng', "Courier New", monospace;
+  font-size: 30rem; }
 
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
   -ms-overflow-style: scrollbar;
+  /* background-color: white !important; /* 배경색 흰색 */
+  /* color: black !important; /* 글자색 빨간색 */
+  /* border: 2px solid lightsalmon !important; 보라색 테두리, 두껍게 */
+  /* padding: 4px 8px !important; 패딩을 조금 더 넓게 */
+  /* border-radius: 4px !important; 둥근 모서리 */
+  /* font-family: 'Courier New', monospace !important; 글꼴 */
+  /* display: inline-block !important; 인라인 블록 요소로 설정 */ */ */ */
 }
 
 figure {
@@ -324,7 +331,7 @@ h2, .h2 {
   font-size: 2rem; }
 
 h3, .h3 {
-  font-size: 1.75rem; }
+  font-size: 1.5rem; }
 
 h4, .h4 {
   font-size: 1.5rem; }
@@ -7359,11 +7366,12 @@ html {
   box-sizing: inherit; }
 
 .container {
-  width: 100%;
+  width: 90%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto; 
+  }
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
@@ -7377,7 +7385,7 @@ html {
     .container {
       max-width: 1070px; } }
 .container-lg {
-    max-width:1140px;
+    max-width:1400px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;

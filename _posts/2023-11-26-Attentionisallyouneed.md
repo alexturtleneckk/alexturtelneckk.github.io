@@ -24,6 +24,7 @@ URL: https://arxiv.org/pdf/1706.03762.pdf
 The structure of RNN involves `BPTT (Backpropagation Through Time)` for sequentially
 inputting each element of the sequence data. 
 If the length of sequence increases,
+
     ❗ Sequential Computation constraint & Memory constraint problem occurs.
 <br>
 
@@ -31,6 +32,7 @@ If the length of sequence increases,
 
 Parallel processing can handle long sequences, 
 but the number of operations required to relate signals between arbitrary input and output positions increases proportionally with the distance between positions.
+
     ❗ difficult to learn dependencies between distant positions
 
 ### Solving with Transformer
