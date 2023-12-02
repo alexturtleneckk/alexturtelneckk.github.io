@@ -43,6 +43,13 @@
   ---family-sans-serif: 'Stylish', " Nanum Gothic", 'Bagel Fat One','NanumSuJubEunDaeHagSaeng'; #"Segoe UI", "Helvetica Neue", "Arial",";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+  
 *,
 *::before,
 *::after {
@@ -85,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem; }
 
 p {
+  margin-left: 45px;
   margin-top: 0rem;
   line-height: 2.0rem;
   margin-bottom: 0.5rem; }
@@ -102,17 +110,33 @@ address {
   font-style: normal;
   line-height: inherit; }
 
+ol, ul, dl, li {
+  list-style-position: outside; /* 불릿과 번호를 외부로 설정 */
+  padding-left: 45px; /* 필요에 따라 조정 */
+  margin-top: 0;
+  margin-bottom: 0.5rem; /* 음수 마진을 제거하고, 긍정적인 마진 값으로 조정 */
+}
+
+/* 중첩된 리스트에 대한 스타일을 조정 */
+ol ol, ul ul, ol ul, ul ol {
+  padding-left: 45px; /* 중첩된 리스트에 대한 패딩을 추가 */
+  margin-bottom: 0;
+}
+  
+/* 
 ol,
 ul,
 dl {
+  margin-left: 45px;
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; 
+  }
 
 ol ol,
 ul ul,
 ol ul,
 ul ol {
-  margin-bottom: 0; }
+  margin-bottom: 0; } */
 
 dt {
   font-weight: 700; }
@@ -172,19 +196,40 @@ samp {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'NanumSuJubEunDaeHagSaeng', "Courier New", monospace;
   font-size: 30rem; }
 
-pre {
+/* 인라인 코드 스타일링 */
+code:not(pre > code) {
+  font-family: 'Bagel fat one', monospace;
+  font-size: 87.5%;
+  word-break: break-word;  
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
-  -ms-overflow-style: scrollbar;
-  /* background-color: white !important; /* 배경색 흰색 */
-  /* color: black !important; /* 글자색 빨간색 */
-  /* border: 2px solid lightsalmon !important; 보라색 테두리, 두껍게 */
-  /* padding: 4px 8px !important; 패딩을 조금 더 넓게 */
-  /* border-radius: 4px !important; 둥근 모서리 */
-  /* font-family: 'Courier New', monospace !important; 글꼴 */
-  /* display: inline-block !important; 인라인 블록 요소로 설정 */ */ */ */
+  background-color: white; 
+  color:black; 
+  border: 2px solid lightsalmon; 
+  padding: 4px 8px; 
+  border-radius: 4px;
 }
+
+/* pre 태그 내부 코드 블록 스타일링 */
+pre > code {
+  font-family: 'GangwonEdu_OTFBoldA', monospace;
+  font-size: 16px; /* 더 작은 글자 크기로 설정 */
+  color: black; /* 글자색을 검정색으로 설정 */
+  background-color: transparent; /* 배경색을 투명하게 설정하여 pre 태그의 배경색을 사용 */
+  padding: 0; /* pre 태그의 패딩만을 사용 */
+  border: none; /* 테두리 제거 */
+}
+
+/* 코드 블록 스타일링 */
+pre {
+  margin-left: 45px;
+  background-color: #eee; /* 배경색 */
+  padding: 10px; /* 패딩 */
+  border-radius: 6px; /* 테두리 둥글기 */
+  overflow-x: auto; /* 가로 스크롤바 */
+}
+
 
 figure {
   margin: 0 0 1rem; }
@@ -328,19 +373,24 @@ h1, .h1 {
   font-size: 2.5rem; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 2rem;
+margin-left: 15px;}
 
 h3, .h3 {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  margin-left: 30px; }
 
 h4, .h4 {
-  font-size: 1.5rem; }
+  font-size: 1.5rem; 
+  margin-left: 30px;}
 
 h5, .h5 {
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  margin-left: 30px; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 1rem;
+  margin-left: 30px; }
 
 .lead {
   font-size: 1.25rem;
@@ -7385,11 +7435,11 @@ html {
     .container {
       max-width: 1070px; } }
 .container-lg {
-    max-width:1400px;
+    max-width:2000px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 130px;
 }
 
 .container-fluid {
